@@ -1,0 +1,7 @@
+{
+    "name": "Data Usage Monitor",
+    "description": "Shows today's network usage in the top bar — click to open Data Usage Monitor",
+    "uuid": "vstat@vstat.app",
+    "shell-version": ["42", "43", "44", "45", "46", "47", "48"],
+    "version": 2
+}

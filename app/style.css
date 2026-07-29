@@ -1,0 +1,212 @@
+/* ── VStat App Stylesheet — System-theme aware ─────────── */
+
+/* ── Window ── */
+window {
+    background: @window_bg_color;
+}
+
+/* ── Header bar ── */
+.header-bar {
+    background: @headerbar_bg_color;
+    border-bottom: 1px solid @borders;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.08);
+}
+
+.header-title {
+    color: @window_fg_color;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* ── Info line ── */
+.info-label {
+    color: alpha(@window_fg_color, 0.45);
+    font-size: 11px;
+    margin-bottom: 2px;
+}
+
+/* ── Cards ── */
+.card {
+    background: @card_bg_color;
+    border-radius: 14px;
+    padding: 14px 16px;
+    border: 1px solid @borders;
+}
+
+.mini-card {
+    background: @card_bg_color;
+    border-radius: 12px;
+    padding: 12px 14px;
+    border: 1px solid @borders;
+}
+
+/* ── Section headings ── */
+.section-heading {
+    color: alpha(@window_fg_color, 0.5);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+}
+
+/* ── Today ── */
+.big-value {
+    color: @window_fg_color;
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.detail-label {
+    color: alpha(@window_fg_color, 0.4);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+/* ── Mini card values ── */
+.mini-label {
+    color: alpha(@window_fg_color, 0.4);
+    font-size: 11px;
+    font-weight: 500;
+}
+
+.mini-value {
+    color: alpha(@window_fg_color, 0.8);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* ── Rows ── */
+.row-date {
+    color: alpha(@window_fg_color, 0.6);
+    font-size: 12px;
+}
+
+.row-total {
+    color: alpha(@window_fg_color, 0.85);
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.row-detail {
+    color: alpha(@window_fg_color, 0.35);
+    font-size: 11px;
+}
+
+/* ── Separator ── */
+.sep {
+    background: @borders;
+    min-height: 1px;
+}
+
+/* ── Error ── */
+.error-label {
+    color: @error_color;
+    font-size: 13px;
+    font-weight: 500;
+}
+
+/* ── Buttons ── */
+button {
+    border-radius: 8px;
+    min-height: 28px;
+}
+
+/* ── Realtime speed card ── */
+.speed-card {
+    background: @card_bg_color;
+    border-radius: 14px;
+    padding: 14px 16px;
+    border: 1px solid @borders;
+}
+
+.speed-heading {
+    color: alpha(@window_fg_color, 0.5);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.speed-value {
+    color: @accent_color;
+    font-size: 18px;
+    font-weight: 800;
+}
+
+.speed-label {
+    color: alpha(@window_fg_color, 0.4);
+    font-size: 11px;
+    font-weight: 500;
+}
+
+/* ── Calendar History page ── */
+.history-title {
+    color: @window_fg_color;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.calendar-card {
+    background: @card_bg_color;
+    border-radius: 14px;
+    padding: 8px;
+    border: 1px solid @borders;
+}
+
+calendar {
+    background: transparent;
+    color: @window_fg_color;
+    font-size: 13px;
+}
+
+calendar.header {
+    color: @window_fg_color;
+    font-weight: 700;
+}
+
+.date-usage-card {
+    background: @card_bg_color;
+    border-radius: 14px;
+    padding: 16px;
+    border: 1px solid @borders;
+}
+
+.date-heading {
+    color: alpha(@window_fg_color, 0.5);
+    font-size: 11px;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.date-total {
+    color: @window_fg_color;
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.date-detail {
+    color: alpha(@window_fg_color, 0.45);
+    font-size: 12px;
+    font-weight: 500;
+}
+
+.no-data-label {
+    color: alpha(@window_fg_color, 0.35);
+    font-size: 13px;
+    font-style: italic;
+}
+
+/* ── Monthly summary rows ── */
+.month-row {
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+
+.month-row:hover {
+    background: alpha(@accent_color, 0.08);
+}
+
+/* ── View Switcher ── */
+.view-switcher-bar {
+    background: @headerbar_bg_color;
+    border-top: 1px solid @borders;
+}
