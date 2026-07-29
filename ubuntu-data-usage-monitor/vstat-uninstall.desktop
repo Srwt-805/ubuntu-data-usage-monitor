@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+
+Name=Uninstall Data Usage Monitor
+Comment=Remove Data Usage Monitor from this computer
+
+Exec=@DIR@/uninstall.sh
+Icon=@DIR@/unicon.png
+
+Terminal=true
+StartupNotify=true
+
+Categories=Utility;System;
